@@ -36,6 +36,7 @@ return require("packer").startup(
         use "wbthomason/packer.nvim"
 
 
+        use {"kdav5758/TrueZen.nvim", otp= true}
         use {"ahmedkhalf/lsp-rooter.nvim", opt = true}
         use {'tpope/vim-fugitive', opt = true}
         use {'ayu-theme/ayu-vim', opt = true}
@@ -75,7 +76,7 @@ return require("packer").startup(
         use {"rafamadriz/friendly-snippets", opt = true}
 
         -- Treesitter
-        use {"nvim-treesitter/nvim-treesitter",  commit = "563616738babb10602b50633ae70c4d9b0f91a27"}
+        use {"nvim-treesitter/nvim-treesitter"}
         use {"windwp/nvim-ts-autotag", opt = true}
 
         -- Explorer
@@ -105,6 +106,7 @@ return require("packer").startup(
 
 
 
+        require_plugin('TrueZen.nvim');
         require_plugin('lsp-rooter.nvim');
         require_plugin('vim-fugitive');
         require_plugin('gruvbox')

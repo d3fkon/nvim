@@ -1,4 +1,3 @@
-plugin/
 dein
 tags*
 .netrwhist
@@ -7,14 +6,10 @@ nodepath.vim
 autoload/plugged/*
 vimspector-config/gadgets/*
 paths.vim
-session
 wiki/
 pack/
 utils/java/*
-lua-language-server/
 eclipse.jdt.ls/
 .language-servers/
 .debuggers/
 spell/
-nv-settings.lua
-lv-settings.lua
